@@ -30,6 +30,8 @@ mongoose
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/dashboard', dashboardRoutes);
+app.use('/api/appointments', appointmentRoutes);
+
 
 // Optional: serve frontend if you put it inside backend/public
 app.use(express.static(path.join(__dirname, 'public')));
