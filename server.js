@@ -1,3 +1,5 @@
+const appointmentRoutes = require('./routes/appointmentRoutes');
+
 require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
